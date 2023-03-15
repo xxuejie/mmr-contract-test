@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+  "crates/rust-verifier",
+  "crates/rust-slow-verifier",
+  "crates/tx-generator",
+]
+
+[profile.release]
+debug = true
